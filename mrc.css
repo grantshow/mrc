@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    line-height: 1.55;
+    color: #333;
+    background-color: #BBB;
+}
+
+section.content {
+    width: 350px;
+    max-width: 90%;
+    margin: auto;
+    padding: 5px 15px;
+    background-color: #FFF;
+}
+
+/* Zone info */
+
+dl {
+    height: 110px;
+    display: none;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+    dl.unknown { display: block; }
+
+    dt {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+
+    dd {
+        margin: 5px 0;
+        color: #444;
+    }
+
+/* Calculator */
+
+.form-group {
+    float: left;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+    .players-label {
+        color: #888;
+    }
+    
+input.text-input {
+    width: 80px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Lato', serif;
+    border: 1px solid #DDDDDD;
+    font-weight: 300;
+}
+
+/* Colours */
+
+body.green { background-color: #53BF57; }
+body.yellow { background-color: #FFD913; }
+body.orange { background-color: #FF820D; }
+body.red { background-color: #FF312C; }
+body.dead { background-color: #400C0B; }
+
+h1.green, dt.green { color: #53BF57 !important; }
+h1.yellow, dt.yellow { color: #FFD913 !important; }
+h1.orange, dt.orange { color: #FF820D !important; }
+h1.red, dt.red { color: #FF312C !important; }
+h1.dead, dt.dead { color: #400C0B !important; }
+
+h1.dead {
+    margin: 0 auto;
+    background-image: url('skull.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    background-size: 40%;
+}
+
+#calculate { 
+    display: inline-block;
+    cursor: pointer; 
+    text-align: center;
+    padding: 8px 16px;
+    background-color: #337ab7;
+    border-bottom-color: #2e6da4;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #DDD;
+    font-weight: 400;
+    color: #BB4961;
+}
+
+/* Typography */
+
+p { 
+    margin: 0 18px 1.3em 0;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+    p.description { 
+        padding-top: 10px;
+        border-top: 1px solid #DDD;
+        text-align: center; 
+        color: #888;
+        font-size: 12px;
+    }
+
+h1.zone {
+    display: block;
+    height: 150px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #BBB;
+    line-height: 1.6em;
+}
+
+.clear {
+    display: block;
+    width: 100%;
+    height: 2px;
+    clear: both;
+}
+
+/* Icons by http://www.flaticon.com/free-icon/halloween-skull-hand-drawn-bone_60118 */
+
