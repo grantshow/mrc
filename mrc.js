@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 			// Do some maths
 			if (players && players > '0') {
-				var mratio = Math.floor((stack/blinds)*(players/8));
+				var mratio = Math.floor((stack/blinds)*(players/9));
 			} else {
 				var mratio = Math.floor(stack/blinds);
 			}
